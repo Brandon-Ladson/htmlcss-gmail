@@ -1,0 +1,77 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+/* regole contenitore di pagine */
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+/* regole intestazione */
+h1{
+  display: inline-block;
+  color: white;
+}
+
+hr{
+  color: white;
+  margin: 1% 0 1% 0;
+}
+
+/* regole prima sezione */
+button{
+  border-radius: 15%;
+  padding: 0 0.5% 0 0.5%;
+}
+
+.warning{
+  color: white;
+  font-size: 25px;
+  margin-top: 1%;
+}
+
+#unread-count{
+  background-color: orange;
+  border-radius: 50%;
+  padding: 0.8%;
+}
+
+/* regole seconda sezione */
+.mail{
+  background-color: #cecece;
+  border: 1px solid black;
+  padding-left: 0.5%;
+}
+
+#read-mail{
+  background-color: white;
+}
+
+.object{
+  font-weight: bold;
+}
+
+.content{
+  color: grey;
+}
+
+/* regole piè di pagina */
+footer{
+  color: white;
+  font-style: oblique;
+  text-align: center;
+}
+
+#footer-name{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+}
